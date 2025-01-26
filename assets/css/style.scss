@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+.page-header {
+    color: $header-heading-color;
+    text-align: center;
+    background-image: url("../images/nature.gif");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    @include large {
+      padding: 5rem 6rem;
+    }
+    @include medium {
+      padding: 3rem 4rem;
+    }
+    @include small {
+      padding: 2rem 1rem;
+    }
+  }
+  .site-footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+    border-top: 1px solid #dee2e6;
+  }
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  .social-icons a {
+    color: #6c757d;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .social-icons a:hover {
+    color: #157878;
+  }
+  
